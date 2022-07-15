@@ -4,4 +4,5 @@
 export interface Network {
   id: string;
   name?: string;
+  rpc?: url;
 }
